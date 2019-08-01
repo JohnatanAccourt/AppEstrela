@@ -27,4 +27,27 @@
         android:textSize="30dp"
         android:textAllCaps="false"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"/>
+
+
+    <EditText
+        android:hint="dsadsadas"
+        android:textColorHint="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda_botao"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/ic_remove_red"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:maxLength="15"
+
+        />
+
 </LinearLayout>
